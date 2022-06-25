@@ -1,0 +1,18 @@
+{
+    "type": "module",
+    "name": "webapp",
+    "version": "1.0.0",
+    "scripts": {
+        "preinstall": "rm package-lock.json"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "express": "^4.17.0"
+    },
+
+    "devDependencies": {
+        "@babel/core": "^7.18.2",
+        "@babel/node": "^7.17.10"
+    }
+
+}
